@@ -1,0 +1,121 @@
+﻿
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+-ERROR - : (SocketObject.cpp:423) poll() error in readAndWrite: 4
+-ERROR - : (StringSockets.cpp:359) poll() error in readAndWrite: 4
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+-ERROR - : (SocketObject.cpp:423) poll() error in readAndWrite: 4
+-ERROR - : (StringSockets.cpp:359) poll() error in readAndWrite: 4
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt
+
+
+Log file opened at : /home/XXXXX/.armory/armorycpplog.txt

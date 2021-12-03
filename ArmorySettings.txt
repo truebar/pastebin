@@ -1,0 +1,44 @@
+﻿Wallet_TWBB1Jx7_LedgerShow           | False
+Default_FeeByte                      | 200
+ManageSatoshi                        | False
+AdjustFee                            | True
+MainWalletCols                       | ff0500004100820057009401
+NotifyBlkFinish                      | True
+MainGeometry                         | 01d9d0cb0001000000000032000000130000042d000002d30000003c0000004000000423000002c9000000000000
+Wallet_xtMXN6ns_LedgerShow           | False
+LastDirectory                        | /home/XXXXX/Documents/WorkingFiles2021_1.9.21/Financial Statements/Crypto/all watching wallets
+Agreed_to_EULA                       | True
+NotifyBtcIn                          | True
+Wallet_Rocm42hu_LedgerShow           | False
+SyncSuccessCount                     | 2
+FeeOption                            | Auto
+MainLedgerCols                       | ff0d14000000a7004800720098007200000000000000000000000000
+DNAA_UnlockTimeout                   | False
+NotifyDiscon                         | True
+Wallet_2qtjBcvZu_LedgerShow          | False
+FailedLoadCount                      | 31
+NotifyIgnore                         | 
+DNAA_IntroDialog                     | True
+DateFormat                           | 25592d25622d25642025493a254d2570
+Default_FeeByte_BlocksToConfirm      | 3
+Default_ReceiveType                  | P2PKH
+AdvFeature_UseCt                     | 0
+UnlockTimeout                        | 10
+Default_Fee                          | 20000
+LastFilterState                      | 0
+MinimizeOrClose                      | Close
+XXXXX_Mode                            | Expert
+NotifyReconn                         | True
+First_Load_Date                      | 1620429678
+Wallet_VxAuLf5h_LedgerShow           | False
+Default_ChangeType                   | P2PKH
+MinimizeOnOpen                       | False
+First_Load                           | False
+Wallet_29Mchrxw_LedgerShow           | False
+IgnoreAlerts                         | 
+DNAA_DeleteLevelDB                   | False
+NotifyBtcOut                         | True
+Load_Count                           | 38
+SatoshiExe                           | /home/XXXXX/Downloads/verified_bitcoin22/bitcoin22/bin
+DNAA_DefaultApp                      | False
+LastVersionLoad                      | v0.96.5
