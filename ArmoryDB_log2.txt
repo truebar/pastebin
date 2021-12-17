@@ -1,0 +1,185 @@
+﻿
+XXXXXXX@XXXXXXX-pc:~$ ArmoryDB
+/home/XXXXXXX
+/home/XXXXXXX
+logging in /home/XXXXXXX/.armory/dbLog.txt
+-INFO  - 00:06:28: (main.cpp:32) Running on 16 threads
+-INFO  - 00:06:28: (main.cpp:33) Ram usage level: 50
+-INFO  - 00:06:28: (BlockUtils.cpp:915) blkfile dir: /home/XXXXXXX/.bitcoin/blocks
+-INFO  - 00:06:28: (BlockUtils.cpp:916) lmdb dir: /home/XXXXXXX/.armory/databases
+-INFO  - 00:06:28: (lmdb_wrapper.cpp:388) Opening databases...
+-INFO  - 00:06:28: (BDM_Server.h:263) Listening on port 9001
+-INFO  - 00:06:28: (BlockUtils.cpp:1108) Executing: doInitialSyncOnLoad
+-INFO  - 00:06:29: (DatabaseBuilder.cpp:199) Reading headers from db
+-INFO  - 00:06:31: (DatabaseBuilder.cpp:238) Found 626760 headers in db
+-INFO  - 00:06:33: (DatabaseBuilder.cpp:64) Rewinding 100 blocks
+-INFO  - 00:06:33: (DatabaseBuilder.cpp:71) updating HEADERS db
+-INFO  - 00:06:33: (DatabaseBuilder.cpp:493) Found next block after skipping 1188608bytes
+-INFO  - 00:06:33: (DatabaseBuilder.cpp:281) parsed block file #2042
+-INFO  - 00:06:35: (DatabaseBuilder.cpp:281) parsed block file #2058
+-INFO  - 00:06:36: (DatabaseBuilder.cpp:281) parsed block file #2068
+-INFO  - 00:06:36: (DatabaseBuilder.cpp:281) parsed block file #2074
+-INFO  - 00:06:38: (DatabaseBuilder.cpp:281) parsed block file #2085
+-INFO  - 00:06:38: (DatabaseBuilder.cpp:281) parsed block file #2090
+-INFO  - 00:06:40: (DatabaseBuilder.cpp:281) parsed block file #2101
+-INFO  - 00:06:40: (DatabaseBuilder.cpp:281) parsed block file #2106
+-INFO  - 00:06:42: (DatabaseBuilder.cpp:281) parsed block file #2110
+-INFO  - 00:06:42: (DatabaseBuilder.cpp:281) parsed block file #2111
+-INFO  - 00:06:42: (DatabaseBuilder.cpp:281) parsed block file #2117
+-INFO  - 00:06:42: (DatabaseBuilder.cpp:281) parsed block file #2122
+-INFO  - 00:06:43: (DatabaseBuilder.cpp:281) parsed block file #2126
+-INFO  - 00:06:43: (DatabaseBuilder.cpp:281) parsed block file #2127
+-INFO  - 00:06:44: (DatabaseBuilder.cpp:281) parsed block file #2133
+-INFO  - 00:06:44: (DatabaseBuilder.cpp:281) parsed block file #2138
+-INFO  - 00:06:45: (DatabaseBuilder.cpp:281) parsed block file #2142
+-INFO  - 00:06:45: (DatabaseBuilder.cpp:281) parsed block file #2143
+-INFO  - 00:06:45: (DatabaseBuilder.cpp:281) parsed block file #2149
+-INFO  - 00:06:46: (DatabaseBuilder.cpp:281) parsed block file #2154
+-INFO  - 00:06:47: (DatabaseBuilder.cpp:281) parsed block file #2158
+-INFO  - 00:06:47: (DatabaseBuilder.cpp:281) parsed block file #2159
+-INFO  - 00:06:47: (DatabaseBuilder.cpp:281) parsed block file #2165
+-INFO  - 00:06:48: (DatabaseBuilder.cpp:281) parsed block file #2170
+-INFO  - 00:06:49: (DatabaseBuilder.cpp:281) parsed block file #2174
+-INFO  - 00:06:49: (DatabaseBuilder.cpp:281) parsed block file #2175
+-INFO  - 00:06:49: (DatabaseBuilder.cpp:281) parsed block file #2181
+-INFO  - 00:06:49: (DatabaseBuilder.cpp:281) parsed block file #2186
+-INFO  - 00:06:51: (DatabaseBuilder.cpp:281) parsed block file #2190
+-INFO  - 00:06:51: (DatabaseBuilder.cpp:281) parsed block file #2191
+-INFO  - 00:06:51: (DatabaseBuilder.cpp:281) parsed block file #2197
+-INFO  - 00:06:51: (DatabaseBuilder.cpp:281) parsed block file #2202
+-INFO  - 00:06:53: (DatabaseBuilder.cpp:281) parsed block file #2207
+-INFO  - 00:06:53: (DatabaseBuilder.cpp:281) parsed block file #2218
+-INFO  - 00:06:55: (DatabaseBuilder.cpp:281) parsed block file #2223
+-INFO  - 00:06:55: (DatabaseBuilder.cpp:281) parsed block file #2234
+-INFO  - 00:06:57: (DatabaseBuilder.cpp:281) parsed block file #2237
+-INFO  - 00:06:57: (DatabaseBuilder.cpp:281) parsed block file #2239
+-INFO  - 00:06:57: (DatabaseBuilder.cpp:281) parsed block file #2245
+-INFO  - 00:06:57: (DatabaseBuilder.cpp:281) parsed block file #2247
+-INFO  - 00:06:57: (DatabaseBuilder.cpp:281) parsed block file #2250
+-INFO  - 00:06:59: (DatabaseBuilder.cpp:281) parsed block file #2255
+-INFO  - 00:06:59: (DatabaseBuilder.cpp:281) parsed block file #2266
+-INFO  - 00:07:01: (DatabaseBuilder.cpp:281) parsed block file #2271
+-INFO  - 00:07:01: (DatabaseBuilder.cpp:281) parsed block file #2282
+-INFO  - 00:07:03: (DatabaseBuilder.cpp:281) parsed block file #2287
+-INFO  - 00:07:03: (DatabaseBuilder.cpp:281) parsed block file #2293
+-INFO  - 00:07:03: (DatabaseBuilder.cpp:281) parsed block file #2294
+-INFO  - 00:07:03: (DatabaseBuilder.cpp:281) parsed block file #2295
+-INFO  - 00:07:03: (DatabaseBuilder.cpp:281) parsed block file #2298
+-INFO  - 00:07:05: (DatabaseBuilder.cpp:281) parsed block file #2310
+-INFO  - 00:07:05: (DatabaseBuilder.cpp:281) parsed block file #2311
+-INFO  - 00:07:05: (DatabaseBuilder.cpp:281) parsed block file #2314
+-INFO  - 00:07:07: (DatabaseBuilder.cpp:281) parsed block file #2326
+-INFO  - 00:07:07: (DatabaseBuilder.cpp:281) parsed block file #2327
+-INFO  - 00:07:07: (DatabaseBuilder.cpp:281) parsed block file #2330
+-INFO  - 00:07:09: (DatabaseBuilder.cpp:281) parsed block file #2342
+-INFO  - 00:07:09: (DatabaseBuilder.cpp:281) parsed block file #2343
+-INFO  - 00:07:09: (DatabaseBuilder.cpp:281) parsed block file #2346
+-INFO  - 00:07:11: (DatabaseBuilder.cpp:281) parsed block file #2358
+-INFO  - 00:07:11: (DatabaseBuilder.cpp:281) parsed block file #2359
+-INFO  - 00:07:12: (DatabaseBuilder.cpp:281) parsed block file #2362
+-INFO  - 00:07:13: (DatabaseBuilder.cpp:281) parsed block file #2374
+-INFO  - 00:07:14: (DatabaseBuilder.cpp:281) parsed block file #2375
+-INFO  - 00:07:14: (DatabaseBuilder.cpp:281) parsed block file #2378
+-INFO  - 00:07:15: (DatabaseBuilder.cpp:281) parsed block file #2390
+-INFO  - 00:07:16: (DatabaseBuilder.cpp:281) parsed block file #2391
+-INFO  - 00:07:16: (DatabaseBuilder.cpp:281) parsed block file #2394
+-INFO  - 00:07:18: (DatabaseBuilder.cpp:281) parsed block file #2406
+-INFO  - 00:07:18: (DatabaseBuilder.cpp:281) parsed block file #2407
+-INFO  - 00:07:19: (DatabaseBuilder.cpp:281) parsed block file #2410
+-INFO  - 00:07:20: (DatabaseBuilder.cpp:281) parsed block file #2422
+-INFO  - 00:07:20: (DatabaseBuilder.cpp:281) parsed block file #2423
+-INFO  - 00:07:21: (DatabaseBuilder.cpp:281) parsed block file #2426
+-INFO  - 00:07:22: (DatabaseBuilder.cpp:281) parsed block file #2438
+-INFO  - 00:07:22: (DatabaseBuilder.cpp:281) parsed block file #2439
+-INFO  - 00:07:23: (DatabaseBuilder.cpp:281) parsed block file #2442
+-INFO  - 00:07:24: (DatabaseBuilder.cpp:281) parsed block file #2454
+-INFO  - 00:07:25: (DatabaseBuilder.cpp:281) parsed block file #2455
+-INFO  - 00:07:25: (DatabaseBuilder.cpp:281) parsed block file #2458
+-INFO  - 00:07:26: (DatabaseBuilder.cpp:281) parsed block file #2470
+-INFO  - 00:07:27: (DatabaseBuilder.cpp:281) parsed block file #2471
+-INFO  - 00:07:27: (DatabaseBuilder.cpp:281) parsed block file #2474
+-INFO  - 00:07:29: (DatabaseBuilder.cpp:281) parsed block file #2486
+-INFO  - 00:07:29: (DatabaseBuilder.cpp:281) parsed block file #2487
+-INFO  - 00:07:29: (DatabaseBuilder.cpp:281) parsed block file #2490
+-INFO  - 00:07:31: (DatabaseBuilder.cpp:281) parsed block file #2502
+-INFO  - 00:07:31: (DatabaseBuilder.cpp:281) parsed block file #2503
+-INFO  - 00:07:31: (DatabaseBuilder.cpp:281) parsed block file #2506
+-INFO  - 00:07:33: (DatabaseBuilder.cpp:281) parsed block file #2518
+-INFO  - 00:07:33: (DatabaseBuilder.cpp:281) parsed block file #2519
+-INFO  - 00:07:33: (DatabaseBuilder.cpp:281) parsed block file #2522
+-INFO  - 00:07:35: (DatabaseBuilder.cpp:281) parsed block file #2534
+-INFO  - 00:07:35: (DatabaseBuilder.cpp:281) parsed block file #2535
+-INFO  - 00:07:36: (DatabaseBuilder.cpp:281) parsed block file #2538
+-INFO  - 00:07:37: (DatabaseBuilder.cpp:281) parsed block file #2550
+-INFO  - 00:07:37: (DatabaseBuilder.cpp:281) parsed block file #2551
+-INFO  - 00:07:38: (DatabaseBuilder.cpp:281) parsed block file #2554
+-INFO  - 00:07:39: (DatabaseBuilder.cpp:281) parsed block file #2566
+-INFO  - 00:07:39: (DatabaseBuilder.cpp:281) parsed block file #2567
+-INFO  - 00:07:40: (DatabaseBuilder.cpp:281) parsed block file #2570
+-INFO  - 00:07:41: (DatabaseBuilder.cpp:281) parsed block file #2582
+-INFO  - 00:07:41: (DatabaseBuilder.cpp:281) parsed block file #2583
+-INFO  - 00:07:42: (DatabaseBuilder.cpp:281) parsed block file #2586
+-INFO  - 00:07:43: (DatabaseBuilder.cpp:281) parsed block file #2598
+-INFO  - 00:07:43: (DatabaseBuilder.cpp:281) parsed block file #2599
+-INFO  - 00:07:44: (DatabaseBuilder.cpp:281) parsed block file #2602
+-INFO  - 00:07:45: (DatabaseBuilder.cpp:281) parsed block file #2614
+-INFO  - 00:07:45: (DatabaseBuilder.cpp:281) parsed block file #2615
+-INFO  - 00:07:46: (DatabaseBuilder.cpp:281) parsed block file #2618
+-INFO  - 00:07:47: (DatabaseBuilder.cpp:281) parsed block file #2630
+-INFO  - 00:07:48: (DatabaseBuilder.cpp:281) parsed block file #2634
+-INFO  - 00:07:49: (DatabaseBuilder.cpp:281) parsed block file #2646
+-INFO  - 00:07:50: (DatabaseBuilder.cpp:281) parsed block file #2647
+-INFO  - 00:07:50: (DatabaseBuilder.cpp:281) parsed block file #2650
+-INFO  - 00:07:51: (DatabaseBuilder.cpp:281) parsed block file #2662
+-INFO  - 00:07:52: (DatabaseBuilder.cpp:281) parsed block file #2663
+-INFO  - 00:07:52: (DatabaseBuilder.cpp:281) parsed block file #2666
+-INFO  - 00:07:53: (DatabaseBuilder.cpp:281) parsed block file #2678
+-INFO  - 00:07:54: (DatabaseBuilder.cpp:281) parsed block file #2679
+-INFO  - 00:07:54: (DatabaseBuilder.cpp:281) parsed block file #2682
+-INFO  - 00:07:55: (DatabaseBuilder.cpp:281) parsed block file #2691
+-INFO  - 00:07:55: (DatabaseBuilder.cpp:281) parsed block file #2694
+-INFO  - 00:07:56: (DatabaseBuilder.cpp:281) parsed block file #2695
+-INFO  - 00:07:56: (DatabaseBuilder.cpp:281) parsed block file #2698
+-INFO  - 00:07:57: (DatabaseBuilder.cpp:281) parsed block file #2710
+-INFO  - 00:07:58: (DatabaseBuilder.cpp:281) parsed block file #2711
+-INFO  - 00:07:58: (DatabaseBuilder.cpp:281) parsed block file #2714
+-INFO  - 00:07:59: (DatabaseBuilder.cpp:281) parsed block file #2721
+-INFO  - 00:07:59: (DatabaseBuilder.cpp:281) parsed block file #2723
+-INFO  - 00:08:00: (DatabaseBuilder.cpp:281) parsed block file #2726
+-INFO  - 00:08:00: (DatabaseBuilder.cpp:281) parsed block file #2727
+-INFO  - 00:08:00: (DatabaseBuilder.cpp:281) parsed block file #2728
+-INFO  - 00:08:00: (DatabaseBuilder.cpp:281) parsed block file #2730
+-INFO  - 00:08:01: (DatabaseBuilder.cpp:281) parsed block file #2737
+-INFO  - 00:08:02: (DatabaseBuilder.cpp:281) parsed block file #2742
+-INFO  - 00:08:02: (DatabaseBuilder.cpp:281) parsed block file #2743
+-INFO  - 00:08:02: (DatabaseBuilder.cpp:281) parsed block file #2744
+-INFO  - 00:08:02: (DatabaseBuilder.cpp:281) parsed block file #2746
+-INFO  - 00:08:04: (DatabaseBuilder.cpp:281) parsed block file #2758
+-INFO  - 00:08:04: (DatabaseBuilder.cpp:281) parsed block file #2759
+-INFO  - 00:08:04: (DatabaseBuilder.cpp:281) parsed block file #2760
+-INFO  - 00:08:04: (DatabaseBuilder.cpp:281) parsed block file #2762
+-INFO  - 00:08:06: (DatabaseBuilder.cpp:281) parsed block file #2769
+-INFO  - 00:08:06: (DatabaseBuilder.cpp:281) parsed block file #2775
+-INFO  - 00:08:06: (DatabaseBuilder.cpp:281) parsed block file #2776
+-INFO  - 00:08:07: (DatabaseBuilder.cpp:281) parsed block file #2778
+-INFO  - 00:08:07: (DatabaseBuilder.cpp:281) parsed block file #2785
+-INFO  - 00:08:08: (DatabaseBuilder.cpp:281) parsed block file #2791
+-INFO  - 00:08:08: (DatabaseBuilder.cpp:281) parsed block file #2792
+-INFO  - 00:08:09: (DatabaseBuilder.cpp:281) parsed block file #2794
+-INFO  - 00:08:10: (DatabaseBuilder.cpp:281) parsed block file #2801
+-INFO  - 00:08:10: (DatabaseBuilder.cpp:281) parsed block file #2806
+-INFO  - 00:08:10: (DatabaseBuilder.cpp:281) parsed block file #2807
+-INFO  - 00:08:10: (DatabaseBuilder.cpp:281) parsed block file #2808
+-INFO  - 00:08:11: (DatabaseBuilder.cpp:281) parsed block file #2810
+-INFO  - 00:08:12: (DatabaseBuilder.cpp:281) parsed block file #2817
+-INFO  - 00:08:12: (DatabaseBuilder.cpp:281) parsed block file #2822
+-INFO  - 00:08:12: (DatabaseBuilder.cpp:281) parsed block file #2823
+-INFO  - 00:08:12: (DatabaseBuilder.cpp:281) parsed block file #2824
+-INFO  - 00:08:13: (DatabaseBuilder.cpp:281) parsed block file #2836
+-INFO  - 00:08:14: (Blockchain.cpp:248) Organizing chain 
+-INFO  - 01:10:09: (Blockchain.cpp:370) Organized chain in 3714s
+-INFO  - 01:10:09: (DatabaseBuilder.cpp:76) updated HEADERS db in 3816s
+-INFO  - 01:10:09: (lmdb_wrapper.cpp:388) Opening databases...
+-INFO  - 01:10:09: (DatabaseBuilder.cpp:1231) verifying txfilters integrity
+-INFO  - 01:10:12: (DatabaseBuilder.cpp:1314) done checking txfilters
+-INFO  - 01:10:12: (BDM_supportClasses.cpp:1891) Enabling zero-conf tracking
