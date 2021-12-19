@@ -1,0 +1,1984 @@
+﻿2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1164 - C++ block utilities loaded successfully
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:689 - Executing popen: free -m
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:689 - Executing popen: ['cat', '/proc/cpuinfo']
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1281 - 
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1282 - 
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1283 - 
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1284 - ************************************************************
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1285 - Invoked: /usr/bin/../lib/armory/ArmoryQt.py
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1286 - ************************************************************
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1287 - Loading Armory Engine:
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1288 -    Armory Version        : 0.96.5
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1289 -    Armory Build:         : 1d02a6640d
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1290 -    PyBtcWallet  Version  : 1.35
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1291 - Detected Operating system: Linux
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1292 -    OS Variant            : Ubuntu-20.04-focal
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1293 -    XXXXXXX home-directory   : /home/XXXXXXX
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1294 -    Satoshi BTC directory : /home/XXXXXXX/.bitcoin
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1295 -    Armory home dir       : /home/XXXXXXX/.armory/
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1296 - Detected System Specs    : 
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1297 -    Total Available RAM   : 62.52 GB
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1298 -    CPU ID string         : Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1299 -    Number of CPU cores   : 16 cores
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1300 -    System is 64-bit      : True
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1301 -    Preferred Encoding    : UTF-8
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1302 -    Machine Arch          : x86_64
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1303 -    Available HDD (ARM)   : 1187 GB
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1304 -    Available HDD (BTC)   : 1187 GB
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1305 - 
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1306 - Network Name: Main Network
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1307 - Satoshi Port: 8333
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1308 - Do wlt check: True
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1309 - Named options/arguments to armoryengine.py:
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     force_segwit    : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     nettimeout      : 2
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     rescan          : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     force_fcgi      : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     ignoreAllZC     : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     rescanBalance   : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     disableModules  : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     port            : None
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     interport       : 8223
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     coverageOutputDir: None
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     forceWalletCheck: False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     regtest         : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     rebuild         : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     thread_count    : -1
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     datadir         : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     clearMempool    : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     offline         : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     armoryDBDir     : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     armorydb_port   : 9001
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     satoshiPort     : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     disableConfPermis: False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     useTorSettings  : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     netlog          : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     keypool         : 100
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     coverageInclude : None
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     forceOnline     : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     disableWalletCheck: False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     redownload      : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     rpcBindAddr     : 127.0.0.1
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     armorydb_ip     : 127.0.0.1
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     multisigFile    : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     ram_usage       : -1
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     ignoreZC        : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     logDisable      : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     settingsPath    : /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     language        : en
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     db_type         : DB_FULL
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     doDebug         : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     enableDetSign   : True
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     mtdebug         : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     testnet         : False
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     rpcport         : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     satoshiHome     : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     satoshiRpcport  : DEFAULT
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     logFile         : /home/XXXXXXX/.armory/ArmoryQt.py.log.txt
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1311 -     verbosity       : None
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1312 - Other arguments:
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1315 - ************************************************************
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:1720 - C++ block utilities loaded successfully
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:3578 - Using settings file: /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-04 19:43:27 (ERROR) -- ArmoryUtils.py:3735 - Unsupported language  specified. Defaulting to English (en)
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:3738 - Using Language: en
+2021-12-04 19:43:27 (INFO) -- BDM.py:353 - Using the asynchronous/multi-threaded BlockDataManager.
+2021-12-04 19:43:27 (INFO) -- BDM.py:354 - Blockchain operations will happen in the background.  
+2021-12-04 19:43:27 (INFO) -- BDM.py:355 - Devs: check TheBDM.getState() before asking for data.
+2021-12-04 19:43:27 (INFO) -- BDM.py:356 - Registering addresses during rescans will queue them for 
+2021-12-04 19:43:27 (INFO) -- BDM.py:357 - inclusion after the current scan is completed.
+2021-12-04 19:43:27 (INFO) -- ArmoryUtils.py:3578 - Using settings file: /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-04 19:43:27 (INFO) -- ArmoryQt.py:2060 - loadWalletsAndSettings
+2021-12-04 19:43:27 (INFO) -- ArmoryQt.py:2120 - Loading wallets...
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2185 - Number of wallets read in: 6
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2190 -    Wallet (VxAuLf5h):    "Restored - VxAuLf5h (Watch)     "   (No Encryption)
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2190 -    Wallet (2qtjBcvZu):   "Restored - 2qtjBcvZu (Watch)    "   (No Encryption)
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2190 -    Wallet (Rocm42hu):    "Restored - Rocm42hu (Watch)     "   (No Encryption)
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2190 -    Wallet (xtMXN6ns):    "Restored - xtMXN6ns (Watch)     "   (No Encryption)
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2190 -    Wallet (TWBB1Jx7):    "Restored - TWBB1Jx7 (Watch)     "   (No Encryption)
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2190 -    Wallet (29Mchrxw):    "NiceHashWalletOne - 29Mchrxw (Wa"   (No Encryption)
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:2195 - Loading Multisig Lockboxes
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1763 - acquiring process mutex...
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1395 - setupUriRegistration
+2021-12-04 19:43:29 (INFO) -- ArmoryUtils.py:689 - Executing popen: gconftool-2 --get /desktop/gnome/url-handlers/bitcoin/command
+2021-12-04 19:43:29 (INFO) -- ArmoryUtils.py:689 - Executing popen: xdg-mime query default x-scheme-handler/bitcoin
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:566 - XXXXXXXmode: Expert
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1698 - Changing XXXXXXXmode:
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1699 -    From: Expert
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1707 -      To: Expert
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1836 - startBitcoindIfNecessary
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1872 - setSatoshiPaths
+2021-12-04 19:43:29 (WARNING) -- SDM.py:402 - Spawning DB with command: ArmoryDB --db-type="DB_FULL" --cookie --satoshi-datadir="/home/XXXXXXX/.bitcoin/blocks" --satoshi-port=8333 --datadir="/home/XXXXXXX/.armory/" --dbdir="/home/XXXXXXX/.armory/databases"
+2021-12-04 19:43:29 (INFO) -- ArmoryUtils.py:689 - Executing popen: ['ArmoryDB', '--db-type="DB_FULL"', '--cookie', '--satoshi-datadir="/home/XXXXXXX/.bitcoin/blocks"', '--satoshi-port=8333', '--datadir="/home/XXXXXXX/.armory/"', '--dbdir="/home/XXXXXXX/.armory/databases"']
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1824 - Connecting on port 63501
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1923 - Setting netmode: 1
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1905 - loadBlockchainIfNecessary
+2021-12-04 19:43:29 (ERROR) -- ArmoryQt.py:1198 - 32 attempts to load blockchain failed.  Remove mempool.bin.
+2021-12-04 19:43:29 (ERROR) -- ArmoryQt.py:1203 - File mempool.bin does not exist. Nothing deleted.
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:1923 - Setting netmode: 1
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:43:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:44:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-04 19:45:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-05 11:51:39 (INFO) -- ArmoryQt.py:5475 - BDM state is scanning -- force shutdown BDM
+2021-12-05 11:51:39 (INFO) -- SDM.py:465 - Called stopBitcoind
+2021-12-05 11:51:39 (INFO) -- SDM.py:471 - ...but bitcoind is not running, to be able to stop
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1164 - C++ block utilities loaded successfully
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:689 - Executing popen: free -m
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:689 - Executing popen: ['cat', '/proc/cpuinfo']
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1281 - 
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1282 - 
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1283 - 
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1284 - ************************************************************
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1285 - Invoked: /usr/bin/../lib/armory/ArmoryQt.py
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1286 - ************************************************************
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1287 - Loading Armory Engine:
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1288 -    Armory Version        : 0.96.5
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1289 -    Armory Build:         : 1d02a6640d
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1290 -    PyBtcWallet  Version  : 1.35
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1291 - Detected Operating system: Linux
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1292 -    OS Variant            : Ubuntu-20.04-focal
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1293 -    XXXXXXX home-directory   : /home/XXXXXXX
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1294 -    Satoshi BTC directory : /home/XXXXXXX/.bitcoin
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1295 -    Armory home dir       : /home/XXXXXXX/.armory/
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1296 - Detected System Specs    : 
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1297 -    Total Available RAM   : 62.52 GB
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1298 -    CPU ID string         : Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1299 -    Number of CPU cores   : 16 cores
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1300 -    System is 64-bit      : True
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1301 -    Preferred Encoding    : UTF-8
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1302 -    Machine Arch          : x86_64
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1303 -    Available HDD (ARM)   : 1181 GB
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1304 -    Available HDD (BTC)   : 1181 GB
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1305 - 
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1306 - Network Name: Main Network
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1307 - Satoshi Port: 8333
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1308 - Do wlt check: True
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1309 - Named options/arguments to armoryengine.py:
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     force_segwit    : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     nettimeout      : 2
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     rescan          : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     force_fcgi      : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     ignoreAllZC     : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     rescanBalance   : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     disableModules  : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     port            : None
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     interport       : 8223
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     coverageOutputDir: None
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     forceWalletCheck: False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     regtest         : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     rebuild         : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     thread_count    : -1
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     datadir         : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     clearMempool    : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     offline         : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     armoryDBDir     : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     armorydb_port   : 9001
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     satoshiPort     : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     disableConfPermis: False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     useTorSettings  : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     netlog          : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     keypool         : 100
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     coverageInclude : None
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     forceOnline     : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     disableWalletCheck: False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     redownload      : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     rpcBindAddr     : 127.0.0.1
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     armorydb_ip     : 127.0.0.1
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     multisigFile    : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     ram_usage       : -1
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     ignoreZC        : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     logDisable      : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     settingsPath    : /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     language        : en
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     db_type         : DB_FULL
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     doDebug         : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     enableDetSign   : True
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     mtdebug         : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     testnet         : False
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     rpcport         : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     satoshiHome     : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     satoshiRpcport  : DEFAULT
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     logFile         : /home/XXXXXXX/.armory/ArmoryQt.py.log.txt
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1311 -     verbosity       : None
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1312 - Other arguments:
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1315 - ************************************************************
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:1720 - C++ block utilities loaded successfully
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:3578 - Using settings file: /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-17 04:02:18 (ERROR) -- ArmoryUtils.py:3735 - Unsupported language  specified. Defaulting to English (en)
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:3738 - Using Language: en
+2021-12-17 04:02:18 (INFO) -- BDM.py:353 - Using the asynchronous/multi-threaded BlockDataManager.
+2021-12-17 04:02:18 (INFO) -- BDM.py:354 - Blockchain operations will happen in the background.  
+2021-12-17 04:02:18 (INFO) -- BDM.py:355 - Devs: check TheBDM.getState() before asking for data.
+2021-12-17 04:02:18 (INFO) -- BDM.py:356 - Registering addresses during rescans will queue them for 
+2021-12-17 04:02:18 (INFO) -- BDM.py:357 - inclusion after the current scan is completed.
+2021-12-17 04:02:18 (INFO) -- ArmoryUtils.py:3578 - Using settings file: /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-17 04:02:18 (INFO) -- ArmoryQt.py:2060 - loadWalletsAndSettings
+2021-12-17 04:02:18 (INFO) -- ArmoryQt.py:2120 - Loading wallets...
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2185 - Number of wallets read in: 6
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2190 -    Wallet (VxAuLf5h):    "Restored - VxAuLf5h (Watch)     "   (No Encryption)
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2190 -    Wallet (2qtjBcvZu):   "Restored - 2qtjBcvZu (Watch)    "   (No Encryption)
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2190 -    Wallet (Rocm42hu):    "Restored - Rocm42hu (Watch)     "   (No Encryption)
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2190 -    Wallet (xtMXN6ns):    "Restored - xtMXN6ns (Watch)     "   (No Encryption)
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2190 -    Wallet (TWBB1Jx7):    "Restored - TWBB1Jx7 (Watch)     "   (No Encryption)
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2190 -    Wallet (29Mchrxw):    "NiceHashWalletOne - 29Mchrxw (Wa"   (No Encryption)
+2021-12-17 04:02:19 (INFO) -- ArmoryQt.py:2195 - Loading Multisig Lockboxes
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1763 - acquiring process mutex...
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1395 - setupUriRegistration
+2021-12-17 04:02:20 (INFO) -- ArmoryUtils.py:689 - Executing popen: gconftool-2 --get /desktop/gnome/url-handlers/bitcoin/command
+2021-12-17 04:02:20 (INFO) -- ArmoryUtils.py:689 - Executing popen: xdg-mime query default x-scheme-handler/bitcoin
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:566 - XXXXXXXmode: Expert
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1698 - Changing XXXXXXXmode:
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1699 -    From: Expert
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1707 -      To: Expert
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1836 - startBitcoindIfNecessary
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1872 - setSatoshiPaths
+2021-12-17 04:02:20 (WARNING) -- SDM.py:402 - Spawning DB with command: ArmoryDB --db-type="DB_FULL" --cookie --satoshi-datadir="/home/XXXXXXX/.bitcoin/blocks" --satoshi-port=8333 --datadir="/home/XXXXXXX/.armory/" --dbdir="/home/XXXXXXX/.armory/databases"
+2021-12-17 04:02:20 (INFO) -- ArmoryUtils.py:689 - Executing popen: ['ArmoryDB', '--db-type="DB_FULL"', '--cookie', '--satoshi-datadir="/home/XXXXXXX/.bitcoin/blocks"', '--satoshi-port=8333', '--datadir="/home/XXXXXXX/.armory/"', '--dbdir="/home/XXXXXXX/.armory/databases"']
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1824 - Connecting on port 52991
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1923 - Setting netmode: 1
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1905 - loadBlockchainIfNecessary
+2021-12-17 04:02:20 (ERROR) -- ArmoryQt.py:1198 - 33 attempts to load blockchain failed.  Remove mempool.bin.
+2021-12-17 04:02:20 (ERROR) -- ArmoryQt.py:1203 - File mempool.bin does not exist. Nothing deleted.
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:1923 - Setting netmode: 1
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:02:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:03:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 04:04:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1031 - Found /home/XXXXXXX/.armory/rebuild.flag, will destroy and rebuild databases
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1106 - Found existing databases dir; removing before rebuild
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1164 - C++ block utilities loaded successfully
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:689 - Executing popen: free -m
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:689 - Executing popen: ['cat', '/proc/cpuinfo']
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1281 - 
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1282 - 
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1283 - 
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1284 - ************************************************************
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1285 - Invoked: /usr/bin/../lib/armory/ArmoryQt.py
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1286 - ************************************************************
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1287 - Loading Armory Engine:
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1288 -    Armory Version        : 0.96.5
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1289 -    Armory Build:         : 1d02a6640d
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1290 -    PyBtcWallet  Version  : 1.35
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1291 - Detected Operating system: Linux
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1292 -    OS Variant            : Ubuntu-20.04-focal
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1293 -    XXXXXXX home-directory   : /home/XXXXXXX
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1294 -    Satoshi BTC directory : /home/XXXXXXX/.bitcoin
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1295 -    Armory home dir       : /home/XXXXXXX/.armory/
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1296 - Detected System Specs    : 
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1297 -    Total Available RAM   : 62.52 GB
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1298 -    CPU ID string         : Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1299 -    Number of CPU cores   : 16 cores
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1300 -    System is 64-bit      : True
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1301 -    Preferred Encoding    : UTF-8
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1302 -    Machine Arch          : x86_64
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1303 -    Available HDD (ARM)   : 1187 GB
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1304 -    Available HDD (BTC)   : 1187 GB
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1305 - 
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1306 - Network Name: Main Network
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1307 - Satoshi Port: 8333
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1308 - Do wlt check: True
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1309 - Named options/arguments to armoryengine.py:
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     force_segwit    : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     nettimeout      : 2
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     rescan          : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     force_fcgi      : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     ignoreAllZC     : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     rescanBalance   : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     disableModules  : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     port            : None
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     interport       : 8223
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     coverageOutputDir: None
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     forceWalletCheck: False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     regtest         : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     rebuild         : True
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     thread_count    : -1
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     datadir         : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     clearMempool    : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     offline         : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     armoryDBDir     : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     armorydb_port   : 9001
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     satoshiPort     : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     disableConfPermis: False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     useTorSettings  : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     netlog          : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     keypool         : 100
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     coverageInclude : None
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     forceOnline     : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     disableWalletCheck: False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     redownload      : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     rpcBindAddr     : 127.0.0.1
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     armorydb_ip     : 127.0.0.1
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     multisigFile    : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     ram_usage       : -1
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     ignoreZC        : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     logDisable      : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     settingsPath    : /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     language        : en
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     db_type         : DB_FULL
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     doDebug         : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     enableDetSign   : True
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     mtdebug         : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     testnet         : False
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     rpcport         : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     satoshiHome     : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     satoshiRpcport  : DEFAULT
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     logFile         : /home/XXXXXXX/.armory/ArmoryQt.py.log.txt
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1311 -     verbosity       : None
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1312 - Other arguments:
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1315 - ************************************************************
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:1720 - C++ block utilities loaded successfully
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:3578 - Using settings file: /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-17 06:26:57 (ERROR) -- ArmoryUtils.py:3735 - Unsupported language  specified. Defaulting to English (en)
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:3738 - Using Language: en
+2021-12-17 06:26:57 (INFO) -- BDM.py:353 - Using the asynchronous/multi-threaded BlockDataManager.
+2021-12-17 06:26:57 (INFO) -- BDM.py:354 - Blockchain operations will happen in the background.  
+2021-12-17 06:26:57 (INFO) -- BDM.py:355 - Devs: check TheBDM.getState() before asking for data.
+2021-12-17 06:26:57 (INFO) -- BDM.py:356 - Registering addresses during rescans will queue them for 
+2021-12-17 06:26:57 (INFO) -- BDM.py:357 - inclusion after the current scan is completed.
+2021-12-17 06:26:57 (INFO) -- ArmoryUtils.py:3578 - Using settings file: /home/XXXXXXX/.armory/ArmorySettings.txt
+2021-12-17 06:26:57 (INFO) -- ArmoryQt.py:2060 - loadWalletsAndSettings
+2021-12-17 06:26:57 (INFO) -- ArmoryQt.py:2120 - Loading wallets...
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2185 - Number of wallets read in: 6
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2190 -    Wallet (VxAuLf5h):    "Restored - VxAuLf5h (Watch)     "   (No Encryption)
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2190 -    Wallet (2qtjBcvZu):   "Restored - 2qtjBcvZu (Watch)    "   (No Encryption)
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2190 -    Wallet (Rocm42hu):    "Restored - Rocm42hu (Watch)     "   (No Encryption)
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2190 -    Wallet (xtMXN6ns):    "Restored - xtMXN6ns (Watch)     "   (No Encryption)
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2190 -    Wallet (TWBB1Jx7):    "Restored - TWBB1Jx7 (Watch)     "   (No Encryption)
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2190 -    Wallet (29Mchrxw):    "NiceHashWalletOne - 29Mchrxw (Wa"   (No Encryption)
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:2195 - Loading Multisig Lockboxes
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1763 - acquiring process mutex...
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1395 - setupUriRegistration
+2021-12-17 06:26:59 (INFO) -- ArmoryUtils.py:689 - Executing popen: gconftool-2 --get /desktop/gnome/url-handlers/bitcoin/command
+2021-12-17 06:26:59 (INFO) -- ArmoryUtils.py:689 - Executing popen: xdg-mime query default x-scheme-handler/bitcoin
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:566 - XXXXXXXmode: Expert
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1698 - Changing XXXXXXXmode:
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1699 -    From: Expert
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1707 -      To: Expert
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1836 - startBitcoindIfNecessary
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1872 - setSatoshiPaths
+2021-12-17 06:26:59 (WARNING) -- SDM.py:402 - Spawning DB with command: ArmoryDB --db-type="DB_FULL" --cookie --satoshi-datadir="/home/XXXXXXX/.bitcoin/blocks" --satoshi-port=8333 --datadir="/home/XXXXXXX/.armory/" --dbdir="/home/XXXXXXX/.armory/databases" --rebuild
+2021-12-17 06:26:59 (INFO) -- ArmoryUtils.py:689 - Executing popen: ['ArmoryDB', '--db-type="DB_FULL"', '--cookie', '--satoshi-datadir="/home/XXXXXXX/.bitcoin/blocks"', '--satoshi-port=8333', '--datadir="/home/XXXXXXX/.armory/"', '--dbdir="/home/XXXXXXX/.armory/databases"', '--rebuild']
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1824 - Connecting on port 61345
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1923 - Setting netmode: 1
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1905 - loadBlockchainIfNecessary
+2021-12-17 06:26:59 (ERROR) -- ArmoryQt.py:1198 - 34 attempts to load blockchain failed.  Remove mempool.bin.
+2021-12-17 06:26:59 (ERROR) -- ArmoryQt.py:1203 - File mempool.bin does not exist. Nothing deleted.
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:1923 - Setting netmode: 1
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:26:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:27:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:28:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:29:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:30:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:31:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:32:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:33:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:34:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 06:35:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:50:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:51:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:10 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:11 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:12 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:13 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:14 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:15 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:16 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:17 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:18 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:19 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:20 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:21 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:22 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:23 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:24 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:25 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:26 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:27 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:28 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:29 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:30 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:31 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:32 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:33 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:34 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:35 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:36 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:37 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:38 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:39 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:40 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:41 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:42 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:43 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:44 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:45 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:46 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:47 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:48 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:49 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:50 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:51 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:52 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:54 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:55 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:56 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:57 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:58 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:52:59 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:00 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:01 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:02 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:03 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:04 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:05 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:06 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:07 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:08 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:09 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
+2021-12-17 08:53:53 (INFO) -- ArmoryQt.py:4672 - Dashboard switched to "Scanning" mode
